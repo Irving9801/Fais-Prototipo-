@@ -36,12 +36,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="header-top-w3layouts">
         <div class="container">
             <div class="col-md-6 logo-w3">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"> <img src="~/images/logo2.png" alt=" " /><h1>                F  A  I  S </h1></a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"> <img src="~/images/logoFais.png" alt=" " /><h1>                F  A  I  S </h1></a>
             </div>
             <div class="col-md-6 phone-w3l">
                 <ul>
                     <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
                     <li>998-7049</li>
+                    <li> --- </li>
+                    <li @*class="dropdown "*@>
+                        <a href="#" @*class="dropdown-toggle*@ @*hyper" data-toggle="dropdown"*@><span>INICIA SESION/REGISTRARSE@*<b class="caret"></b>*@</span></a>
+                        @*<ul class="dropdown-menu multi">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul class="multi-column-dropdown">
+
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Iniciasesion">INICIA SESION</a></li>
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Registrate">REGISTRATE</a></li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="clearfix"></div>
+                </div>
+            </ul>*@
+                    </li>
                 </ul>
             </div>
             <div class="clearfix"></div>
@@ -64,7 +84,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul class="nav navbar-nav ">
                             <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">INICIO</a></li>
 
-
                             <li class="dropdown ">
                                 <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>ROPA<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi">
@@ -72,20 +91,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <div class="col-sm-4">
                                             <ul class="multi-column-dropdown">
 
-                                                <li><a href="women.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Women's Clothing</a></li>
-                                                <li><a href="men.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Men's Clothing</a></li>
-                                                <li><a href="kids.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Kid's Wear</a></li>
-                                                <li><a href="party.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Party Wear</a></li>
+                                                <li><a href="women.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Ropa de mujer</a></li>
+                                                <li><a href="men.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Ropa de hombre</a></li>
+                                                <li><a href="kids.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Niños</a></li>
+                                                <li><a href="party.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Ocasional</a></li>
 
                                             </ul>
 
                                         </div>
                                         <div class="col-sm-4">
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="casuals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Casuals</a></li>
-                                                <li><a href="night.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Night Wear</a></li>
-                                                <li><a href="formals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Formals</a></li>
-                                                <li><a href="inner.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Inner Wear</a></li>
+                                                <li><a href="casuals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Casual</a></li>
+                                                <li><a href="night.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Ropa de dormir</a></li>
+                                                <li><a href="formals.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Formal</a></li>
+
 
                                             </ul>
                                         </div>
@@ -97,15 +116,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown"><span> Personal Care <b class="caret"></b></span></a>
+                                <a href="#" class="dropdown-toggle hyper" data-toggle="dropdown"><span>EJEMPLOS<b class="caret"></b></span></a>
                                 <ul class="dropdown-menu multi multi1">
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="jewellery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Jewellery </a></li>
-                                                <li><a href="watches.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Watches</a></li>
-                                                <li><a href="cosmetics.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-                                                <li><a href="deos.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Perfumes</a></li>
+                                                <li><a href="jewellery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>LLaveros </a></li>
+                                                <li><a href="watches.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Covers</a></li>
+                                                <li><a href="cosmetics.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Adornos</a></li>
+                                                <li><a href="deos.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sublimación</a></li>
 
                                             </ul>
 
@@ -113,10 +132,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <div class="col-sm-4">
 
                                             <ul class="multi-column-dropdown">
-                                                <li><a href="haircare.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-                                                <li><a href="shoes.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shoes</a></li>
-                                                <li><a href="handbags.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Handbags</a></li>
-                                                <li><a href="skincare.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
+                                                <li><a href="haircare.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Gorras</a></li>
+                                                <li><a href="shoes.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Abrigos</a></li>
+                                                <li><a href="handbags.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sombreros</a></li>
+                                                <li><a href="skincare.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Bolsas</a></li>
 
                                             </ul>
 
@@ -131,25 +150,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Acerca">SOBRE NOSOTROS</a></li>
                             <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="contactanos">CONTACTANOS</a></li>
 
-                            <li class="dropdown ">
-                                <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>INICIA SESION/REGISTRARSE<b class="caret"></b></span></a>
-                                <ul class="dropdown-menu multi">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <ul class="multi-column-dropdown">
+                            @*<li class="dropdown ">
+            <a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown"><span>INICIA SESION/REGISTRARSE<b class="caret"></b></span></a>
+            <ul class="dropdown-menu multi">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul class="multi-column-dropdown">
 
-                                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Iniciasesion">INICIA SESION</a></li>
-                                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Registrate">REGISTRATE</a></li>
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Iniciasesion">INICIA SESION</a></li>
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Registrate">REGISTRATE</a></li>
 
-                                            </ul>
+                        </ul>
 
-                                        </div>
+                    </div>
 
 
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </ul>
-                            </li>
+                    <div class="clearfix"></div>
+                </div>
+            </ul>
+        </li>*@
 
 
 
@@ -177,7 +196,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </script>
             <div class="col-md-4 search-agileinfo">
                 <form action="#" method="post">
-                    <input type="search" name="Search" placeholder="Search for a Product..." required="">
+                    <input type="search" name="Search" placeholder="Buscar producto..." required="">
                     <button type="submit" class="btn btn-default search" aria-label="Left Align">
                         <i class="fa fa-search" aria-hidden="true"> </i>
                     </button>
@@ -202,9 +221,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <h3>Sobre Nosotros</h3>
             <div class="about-info">
                 <div class="col-md-8 about-grids">
-                    <h4>Our latest collection</h4>
-                    <p>Dignissimos at vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecat officia. </p>
-                    <div class="about-w3ls-row">
+                    <h4>Sublimaciones, impresiones 3d, delivery y más...</h4>
+                    <p>Hola!, FAIS S.A es una empresa 100% panameña especializada en personalizar articulos, desde servicios de impresion 3d y sublimacion en multiples prendas de vestir como: Sueteres, abrigos, camisas, gorras, bolsas, entre otros.
+                    Además tambien brindamos servicio a domicilio (delivery) a tus pedidos online para mayor comodidas. </p>
+                    <p><b>La Sublimación</b> comienza con la impresión del diseño que queremos sublimar puede ser cualquiera.
+                    El proceso consiste en el traspaso de la tinta a la tela. la cual plasma el diseño de la tela de un estado solido a gaseoso
+                    y en este estado es cuando penetra en los tejidos y se fija permanentemente. <b>Toma un tiempo aproximado de 5 horas.</b></p>
+                    
+                    <p><b>Impresión 3d</b> proceso de fabricación aditiva en donde un modelo 3D se imprime capa por capa hasta completarse. Utilizamos máquinas exclusivamente para este fin y materiales necesarios. <b>Toma de 1 a 2 dias dependiendo de el diametro, tamaño del pedido/producto</b></p>
+                    @*<div class="about-w3ls-row">
                         <script type="text/javascript">
                                                                                     $(window).load(function () {
                                         $("#flexiselDemo3").flexisel({
@@ -246,18 +271,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <li>
                                 <img src="~/images/a4.jpg" class="img-responsive" alt="" />
                             </li>
-                        </ul>
+                        </ul>*@
+
+
                         <div class="clearfix"> </div>
                     </div>
                 </div>
                 <div class="col-md-4 about-grids">
-                    <h4>Our Advantages</h4>
+                    <h4>Nuestras Ventajas!</h4>
                     <div class="pince">
                         <div class="pince-left">
                             <h5>01</h5>
                         </div>
                         <div class="pince-right">
-                            <p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+                            <p>Nuestro servicio es 24/7 online</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -266,7 +293,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <h5>02</h5>
                         </div>
                         <div class="pince-right">
-                            <p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+                            <p>Solo debes registrarte, consultar y hacer tu pedido</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -275,7 +302,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <h5>03</h5>
                         </div>
                         <div class="pince-right">
-                            <p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+                            <p>Brindamos nuestro servicio delivery</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -284,7 +311,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <h5>04</h5>
                         </div>
                         <div class="pince-right">
-                            <p>Vero vulputate enim non justo posuere phasellus eget  mauris.</p>
+                            <p>Fácil comunicacion a traves de nuestro correo o WhatsApp</p>
                         </div>
                         <div class="clearfix"> </div>
                     </div>
@@ -297,8 +324,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- about-bottom -->
     <div class="about-bottom">
         <div class="container">
-            <h3> Flat <span>50%</span> Off</h3>
-            <h4>On women Accessories</h4>
+            <h3>Descuento de <span>50%</span> Off</h3>
+            <h4>En tu primer pedido!</h4>
             <a href="Jewellery.html">Compra ahora</a>
         </div>
     </div>
@@ -313,15 +340,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="~/images/Ana.png" class="img-responsive" alt=" " />
                         <figcaption class="overlay">
                             <div class="social-icon">
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/Aniikawi?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/aniikawi/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100008137680912&ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                
                             </div>
                         </figcaption>
                     </div>
                     <h4>Ana Aguilar</h4>
-                    <h5>Managing Director</h5>
+                    <h5>Graphic Designer</h5>
                 </div>
                 <div class="col-md-3 team-grid">
                     <div class="team-img">
@@ -329,9 +356,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <figcaption class="overlay">
                             <div class="social-icon">
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/sauulgram31?igshid=17d3afkfscm4"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/saul.fernandez.712"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                              
                             </div>
                         </figcaption>
                     </div>
@@ -343,15 +370,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <img src="~/images/Fitzal.png" class="img-responsive" alt=" " />
                         <figcaption class="overlay">
                             <div class="social-icon">
-                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/FitzalCujavante?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/fitzal19?igshid=1xfz2okdj3iwx"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/fitzal19"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                
                             </div>
                         </figcaption>
                     </div>
                     <h4>Fitzal Cujavante</h4>
-                    <h5>Fashion Designer</h5>
+                    <h5>Managing Director</h5>
                 </div>
                 <div class="col-md-3 team-grid">
                     <div class="team-img">
@@ -359,14 +386,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <figcaption class="overlay">
                             <div class="social-icon">
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://instagram.com/irvingv01?igshid=ficaegip3km7"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/irving.vasquez.7374"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                               
                             </div>
                         </figcaption>
                     </div>
                     <h4>Irving Vásquez</h4>
-                    <h5>fashion Designer</h5>
+                    <h5>Lead Devoloper</h5>
                 </div>
                 <div class="clearfix"></div>
             </div>
